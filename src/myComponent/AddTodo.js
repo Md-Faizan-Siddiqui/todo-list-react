@@ -20,7 +20,7 @@ export const AddTodo = (props) => {
         <div className='container'>
             <div className='main'>
             <form action="" onSubmit={submit}>
-                <div>
+                <div className="add-todo-div">
                 <h2>Add ATodo</h2>
                 <input type="text" id='addTodo' value={todo} onChange={(e)=>setTodo(e.target.value)} placeholder='Enter Todo' required/>
                 <div><button>Add Todo</button></div>

@@ -6,7 +6,7 @@ export default function Navbar(props) {
     return (
       <div>
         <nav className='navbar'>
-        <div className='main'>
+        <div >
           <div className='logo'>
             <h2>{props.title}</h2>
           </div>

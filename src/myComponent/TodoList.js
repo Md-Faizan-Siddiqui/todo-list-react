@@ -6,7 +6,7 @@ export const TodoList = (props) => {
     console.log(props)
     return (
 
-        <div className='container'>
+        <div>
             <div className='card'>
           <p>{props.todo.desc}</p>
           <br />
